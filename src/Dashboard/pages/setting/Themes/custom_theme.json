@@ -1,0 +1,36 @@
+{
+  "default" : {
+    "id" : "thdf002",
+    "selector" : "default",
+    "name" : "default",
+    "primaryColor" : "#e7a43e",
+    "primaryColorOp30" :  "#e7a33e31",
+    "primaryColorOp50" : "#e7a33e8c",
+    "secondaryColor" : "#fcfcfc",
+    "textColor": "white",
+    "bg" :  "#fafafa"
+
+  },
+  "blue" : {
+    "id" : "thb001",
+    "selector" :"blue",
+    "name" : "Blue Primary",
+    "primaryColor" : "#3884f1",
+    "primaryColorOp30" :  "#3884F154",
+    "primaryColorOp50" : "#3884F1A8",
+    "secondaryColor" : "#565A64FF",
+    "textColor": "white",
+    "bg" :  "#fafafa"
+  },
+  "danger" :{
+     "id" : "thrd003",
+    "selector" :"danger",
+    "name" : "Red Danger",
+    "primaryColor" : "#F12626FF",
+    "primaryColorOp30" :  "#F1262657",
+    "primaryColorOp50" : "#F1262694",
+    "secondaryColor" : "#565A64FF",
+    "textColor": "white",
+    "bg" :  "#fafafa"
+  }
+}

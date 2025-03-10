@@ -1,0 +1,298 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+:root{ 
+
+  --primary-color: #663300;
+  --primary-color-op-30 : #66330031;
+  --primary-color-op-50 : #6633008c;
+  --secondary-color: #fcfcfc;
+  --text-color : #1f1f1f;
+   --bg-secondary: #66330031;
+ --v : rgba(241, 38, 38, 0.58);
+}
+ 
+ 
+
+.bg-primary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.bg-secondary{
+  background-color:var(--primary-color);
+}
+.bg-bisecondary{
+  background-color:var(--bg-secondary);
+}
+body {
+  background-color:var(--secondary-color) ;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.2;
+}
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Poppins", serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.8rem 1.6rem;
+  font-family: 'Segoe Print';
+  background-color: transparent ;
+  background-image: url("/bg.png") ;
+  box-shadow: 0 0px 2px #ececec96;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-bottom :1px solid #ececec77;
+  gap: 1rem 3rem;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.app-title {
+  
+  font-size: 1.5em;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: space-between;
+ 
+  position: relative;
+  gap: 1rem 0.5rem;
+  flex-wrap: wrap;
+}
+
+.app-title h1 {
+  font-family: 'Segoe Script';
+  forced-color-adjust: auto;
+  font-optical-sizing: auto;
+  color: var(--primary-color);
+}
+.app-nav a,
+.action {
+  background: rgba(199, 199, 199, 0.14);
+  padding: 0.5rem 1.25rem;
+  text-align: center;
+  transition: background-color 300ms;
+  border-bottom: 1px solid #c5c5c5a2;
+}
+
+.app-nav a:active,
+.app-nav a.active {
+  border-bottom: 2px solid var(--primary-color);
+  background: var(--primary-color-op-30);
+}
+.action {
+  flex: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #00000002;
+}
+.app-nav a:hover,
+.action:hover {
+  /* background: #25242bb2; */
+  background:  var(--primary-color-op-30) ;
+  
+  border-bottom: 2px solid var(--primary-color);
+}
+
+main a:hover {
+  color: var(--primary-color);
+}
+label {
+  background: var(--secondary-color);
+  border-bottom: 2px solid var(--primary-color);
+  font-weight: 400;
+}
+
+input,
+input:focus,
+input:focus-visible,
+footer:not() :focus-within {
+  background: #3db3d141;
+  border-bottom: 2px solid #3db3d1;
+  outline: none;
+}
+
+.only-self :hover hr{
+  display: none;
+  border : 1px solid var(--primary-color) !important;
+}
+.adm-table{
+  table-layout: auto;
+  border-collapse: separate;
+}
+.sidebar a:active, .sidebar a.active{
+  background: var(--primary-color);
+  /* color: white; */
+}
+.sidebar a.active svg{
+  fill: white;
+}
+footer{
+  background-color:#fcfcfc;
+  background-image: url("/bg.png") ;
+  font-family: 'Segoe Print';
+  
+}
+.slogan{
+  font-family: 'Segoe Script Regular';
+}
+.section-index h1{
+  font-family: 'Segoe Script';
+  
+}
+.section-index .slogan{
+  font-family: 'Segoe Script Regular';
+  font-size: 1.6rem;
+}
+.section-index .cta a{
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+     background : var(--primary-color );
+    color:#fcfcfc;
+    border-radius: 4px;
+    font-family: 'Segoe Print';
+    transition: all 350ms ease-in-out;
+}
+.cta .discover:hover{
+  background: #fde047;
+  color: #1f1f1f;
+}
+.cta a.pay{
+  background: #fde047;
+    color: #1f1f1f;
+}
+.cta .pay:hover{
+  background: var(--primary-color );
+  color: #fcfcfc;
+}
+
+ .section-intro{
+  font-family: 'Segoe Print';
+}
+.section-description{
+  font-family: "Poppins", serif;
+}

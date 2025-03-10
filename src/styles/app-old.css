@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{ 
+
+  --primary-color: #3db3d1;
+  --secondary-color: #080864;
+  --bg :  #19191f;
+}
+ 
+ 
+
+.bg-primary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+body {
+  background-color:var(--bg) ;
+  color: white;
+  font-size: 16px;
+  line-height: 1.2;
+}
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.8rem 1.6rem;
+  background-color: color-mix(in srgb, #080864 30%, rgb(36, 33, 33) 70%);
+  box-shadow: 0 0px 2px #5f6170c2;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 2rem 3rem;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.app-title {
+  flex: 1 1 auto;
+  font-size: 2em;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  gap: 1rem 0.5rem;
+  flex-wrap: wrap;
+}
+
+.app-title h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, serif;
+  forced-color-adjust: auto;
+  font-optical-sizing: auto;
+  color: #3db3d1;
+}
+.app-nav a,
+.action {
+  background: #25242b54;
+  padding: 0.5rem 1.25rem;
+  text-align: center;
+  transition: background-color 300ms;
+  border-bottom: 2px solid transparent;
+}
+
+.app-nav a:active,
+a.active {
+  border-bottom: 2px solid #3db3d1;
+  background: #3db3d115;
+}
+.action {
+  flex: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #00000002;
+}
+.app-nav a:hover,
+.action:hover {
+  /* background: #25242bb2; */
+  background: #3db3d141;
+  border-bottom: 2px solid #3db3d1;
+}
+
+main a:hover {
+  color: var(--primary-color);
+}
+label {
+  background: var(--secondary-color);
+  border-bottom: 2px solid #3db3d1;
+  font-weight: 400;
+}
+
+input,
+input:focus,
+input:focus-visible,
+input :focus-within {
+  background-color:#892de1;
+  background: #3db3d141;
+  border-bottom: 2px solid #3db3d1;
+  outline: none;
+}

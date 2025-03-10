@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Update your tailwind component",
+        "slug": "update-your-tailwind-component",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero?",
+        "preview_image": "/images/blog.jfif",
+        "created_at": "12/07/2024"
+    },
+    {
+        "id": 2,
+        "title": "LocalStorage with JavaScript ",
+        "slug": "local-storage-with-java-script",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero?",
+        "preview_image": "/images/blog.jfif",
+        "created_at": "12/07/2024"
+    },
+    {
+        "id": 3,
+        "title": "Building a web application using Vite + React + Symfony",
+        "slug": "building-a-web-application-using-vite-react-symfony",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero?",
+        "preview_image": "/images/blog.jfif",
+        "created_at": "22/10/2024"
+    }
+]

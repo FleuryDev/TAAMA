@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "title": "Update your tailwind component",
+        "slug": "update-your-tailwind-component",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero?",
+        "comments": [
+            {
+                "id": 1,
+                "content": " expliquez - moi !",
+                "user": {
+                    "id": 1,
+                    "name": "fleury ",
+                    "lastName": "Dev",
+                    "created_at": null,
+                    "updated_at": null
+                },
+                "created_at": null,
+                "updated_at": null,
+                "children": [
+                    {
+                        "id": 4,
+                        "user": {
+                            "id": 1,
+                            "name": "fleury ",
+                            "lastName": "Dev",
+                            "created_at": null,
+                            "updated_at": null
+                        },
+                        "content": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nesciunt vel ipsam maiores id. Perferendis consequatur aut iure amet ut fugiat cum. Blanditiis quod officia maiores natus non ratione repudiandae. ",
+                        "created_at": null,
+                        "updated_at": null,
+                        "children": null
+                    },
+                    {
+                        "id": 5,
+                        "user": {
+                            "id": 1,
+                            "name": "fleury ",
+                            "lastName": "Dev",
+                            "created_at": null,
+                            "updated_at": null
+                        },
+                        "content": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nesciunt vel ipsam maiores id. Perferendis consequatur aut iure amet ut fugiat cum. Blanditiis quod officia maiores natus non ratione repudiandae. ",
+                        "created_at": null,
+                        "updated_at": null,
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "content": "Super cool",
+                "created_at": null,
+                "updated_at": null,
+                "user": {
+                    "id": 1,
+                    "name": "fleury ",
+                    "lastName": "Dev",
+                    "created_at": null,
+                    "updated_at": null
+                },
+                "children": null
+            },
+            {
+                "id": 3,
+                "content": "lorem ei  isid sodi sd sod sdgsid gm suim yMDF HId dhgd qhDg g qlh doqi ",
+                "created_at": null,
+                "updated_at": null,
+                "children": null,
+                "user": {
+                    "id": 3,
+                    "name": "Sylvin",
+                    "lastName": "Dubois",
+                    "created_at": null,
+                    "updated_at": null
+                }
+            }
+        ],
+        "preview_image": "/images/blog.jfif",
+        "created_at": "12/07/2024"
+    },
+    {
+        "id": 2,
+        "title": "LocalStorage with JavaScript ",
+        "slug": "local-storage-with-java-script",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero?",
+        "comments": null,
+        "preview_image": "/images/blog.jfif",
+        "created_at": "12/07/2024"
+    },
+    {
+        "id": 3,
+        "title": "Building a web application using Vite + React + Symfony",
+        "slug": "building-a-web-application-using-vite-react-symfony",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est exercitationem, quas quia iusto excepturi hic pariatur sequi nihil iure mollitia a corrupti deleniti odio neque consequatur. Facere, consequuntur libero?",
+        "comments": [
+            {
+                "id": 1,
+                "content": " expliquez - moi !",
+                "user": {
+                    "id": 1,
+                    "name": "fleury ",
+                    "lastName": "Dev",
+                    "created_at": null,
+                    "updated_at": null
+                },
+                "created_at": null,
+                "updated_at": null,
+                "children": [
+                    {
+                        "id": 4,
+                        "user": {
+                            "id": 1,
+                            "name": "fleury ",
+                            "lastName": "Dev",
+                            "created_at": null,
+                            "updated_at": null
+                        },
+                        "content": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nesciunt vel ipsam maiores id. Perferendis consequatur aut iure amet ut fugiat cum. Blanditiis quod officia maiores natus non ratione repudiandae. ",
+                        "created_at": null,
+                        "updated_at": null,
+                        "children": null
+                    },
+                    {
+                        "id": 5,
+                        "user": {
+                            "id": 1,
+                            "name": "fleury ",
+                            "lastName": "Dev",
+                            "created_at": null,
+                            "updated_at": null
+                        },
+                        "content": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nesciunt vel ipsam maiores id. Perferendis consequatur aut iure amet ut fugiat cum. Blanditiis quod officia maiores natus non ratione repudiandae. ",
+                        "created_at": null,
+                        "updated_at": null,
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "content": "Super cool",
+                "created_at": null,
+                "updated_at": null,
+                "user": {
+                    "id": 1,
+                    "name": "fleury ",
+                    "lastName": "Dev",
+                    "created_at": null,
+                    "updated_at": null
+                },
+                "children": null
+            },
+            {
+                "id": 3,
+                "content": "lorem ei  isid sodi sd sod sdgsid gm suim yMDF HId dhgd qhDg g qlh doqi ",
+                "created_at": null,
+                "updated_at": null,
+                "children": null,
+                "user": {
+                    "id": 3,
+                    "name": "Sylvin",
+                    "lastName": "Dubois",
+                    "created_at": null,
+                    "updated_at": null
+                }
+            }
+        ],
+        "preview_image": "/images/blog.jfif",
+        "created_at": "22/10/2024"
+    }
+]

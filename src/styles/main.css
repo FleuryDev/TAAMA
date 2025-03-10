@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-item{
+    @apply: flex w-full  hover:bg-[var(--primary-color-op-50)] p-2 rounded-l-2xl align-baseline items-center;
+}
+.section-nav a.active{
+    @apply bg-[var(--primary-color)] text-[var(--text-color)] rounded-2xl transition-all duration-1000 ;
+}
+footer div h2{
+    @apply  font-medium  tracking-widest text-sm mb-3 uppercase font-bold;
+    font-family: 'Segoe Print';
+}
+footer nav li{
+    list-style: circle ;
+    line-height: 1.6em;
+}
+footer .nav-sect{
+    @apply lg:w-1/4 md:w-1/2 max-md:h-min  w-full ;
+}
+footer nav a{
+    @apply hover:text-[var(--primary-color)] hover:underline font-semibold hover:cursor-pointer;
+    font-family: 'Segoe Print';
+    line-height: .8em;
+}
+.bd-infos p{
+    @apply flex align-baseline items-baseline space-x-2;
+}
+.bd-action {
+    @apply flex w-full flex-wrap py-2  justify-between align-middle  gap-2;
+}
+
+a.see-more,.bd-action a {
+    @apply  flex-auto text-center  flex justify-evenly align-middle  border transition-colors duration-300 text-base text-black py-1 px-2 ;
+}
+.bd-action a:first-of-type{
+    @apply bg-green-500 hover:bg-green-600 hover:text-white;
+}
+
+a.see-more,.bd-action a:last-of-type{
+    @apply bg-gray-300 hover:bg-amber-800 hover:text-white;
+}
+
+.page_contact svg{
+    @apply  text-opacity-30  bg-opacity-5 !important;
+    fill: #502107;
+}
+.page_contact h2{
+    @apply bg-amber-900  text-white;
+}
+/*.react-slideshow-fadezoom-images-wrap{*/
+/*    @apply relative aspect-video !important;*/
+/*    width: 100%!important;*/
+/*}*/
+/*.react-slideshow-container {*/
+/*    @apply flex relative w-full;*/
+/*}*/
