@@ -30,7 +30,7 @@ import Tasks from './Dashboard/pages/Tasks';
 import Users from './Dashboard/pages/Users';
 import WritterApp from './Dashboard/pages/Writters/Index';
 import BdLayout from "./components/BD/Layout";
-import Bd from "./components/BD";
+import Bd from "./components/BD/Bd";
 import UserDashboard from "./components/user/Dashboard/UserDashboard";
 import View from "./components/user/Dashboard/View";
 import BdList from "./components/user/Dashboard/BD/BdList";
