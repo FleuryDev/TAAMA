@@ -7,6 +7,7 @@ import { json, Navigate, redirectDocument, Router, useNavigate, useRoutes } from
 import { redirect } from "react-router";
 import MessageComponent from "../../components/Messages/MessageListener";
 import { API_URL } from './../../configApi';
+import React from "react";
 
 export const enum AuthenticationState {
     Unknown,
@@ -115,6 +116,7 @@ const useAccount = () => {
             const data = await response.json();
             localStorage.setItem('app_user_token', data.tokens)
             registerAccount(data.user)
+            alert('Connecté en tant que : ' + email + 'Veuillez fermer cette fenêtre!')
             return <MessageComponent body={'Connecté en tant que : ' + email} msgType={'success'} />;
         }
 

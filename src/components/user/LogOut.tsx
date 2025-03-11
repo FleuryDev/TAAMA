@@ -8,7 +8,7 @@ const LogoutButton = () => {
         // Clear user session or authentication token
         // For example, if using localStorage:
         localStorage.removeItem('app_user_token');
-
+        alert('Vous êtes déconnecté !')
         // Redirect to homepage
         navigate('/');
     };

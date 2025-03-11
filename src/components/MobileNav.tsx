@@ -13,9 +13,9 @@ function MobileNav({ links }) {
     return (<>
 
         <button className='text-4xl max-lg:hidden' onClick={handleOpenMenu}>
-            <span className='material-icons max-lg:hidden transition-transform  duration-300' style={{ fontSize: "2.5rem" }}>{openMenu ? 'close' : 'search'}</span>
+            <span translate='no' className='material-icons max-lg:hidden transition-transform  duration-300' style={{ fontSize: "2.5rem" }}>{openMenu ? 'close' : 'search'}</span>
         </button>
-        <button className='text-4xl lg:hidden ' onClick={handleOpenMenu}> <span className='material-icons lg:hidden transition-transform  duration-300' style={{ fontSize: "2.5rem" }}>{openMenu ? 'close' : 'menu'}  </span> </button>
+        <button translate='no' className='text-4xl lg:hidden ' onClick={handleOpenMenu}> <span className='material-icons lg:hidden transition-transform  duration-300' style={{ fontSize: "2.5rem" }}>{openMenu ? 'close' : 'menu'}  </span> </button>
         {openMenu &&
             <Popup className={"fixed top-[5.2rem] w-full   transition-all duration-1000 mx-auto z-[105] h-lvh  bg-white"}>
                 <div className="flex w-full relative flex-col space-y-4 p-4">

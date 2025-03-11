@@ -1,6 +1,8 @@
+import React from 'react';
+
 import MobileNav from './MobileNav';
 import { Nav } from './Nav';
-import SignInUpPopup from "./user/SignInUpPopup";
+import SignInUpPopup from './user/SignInUpPopup';
 
 /**
  * Header of Application
@@ -10,7 +12,7 @@ import SignInUpPopup from "./user/SignInUpPopup";
  */
 function Header({ AppName, navigation, }) {
 
-    return <header className='max-md:px-1 backdrop-blur-md text-md bg-white'>
+    return <header className='max-md:px-1 backdrop-blur-md text-md  bg-white'>
         <div className="app-title flex">
             <img src="/logo.png" className='' alt="" />
         </div>
@@ -18,7 +20,7 @@ function Header({ AppName, navigation, }) {
 
             <Nav NavItems={navigation} />
             <MobileNav links={navigation} />
-            <SignInUpPopup/>
+            <SignInUpPopup />
         </div>
 
 

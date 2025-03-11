@@ -47,24 +47,22 @@ const FavoriteBDs = ({ userId }) => {
             <h2 className={'flex-1 text-center my-auto text-gray-500 text-xl'}>Vous n'avez aucune favorie pour le moment !</h2>
         </div>;
     }
-    return <div className="max-w-4xl mx-auto p-4 shadow-sm rounded bg-white">
-        <h1 className="text-3xl font-bold mb-4">Mes favories</h1>
-        <hr />
-        <ul className="mb-4 mt-4">
-            {favorites.map((favorite) => (
-                <li key={favorite.bande.id} className="mb-4">
-                    <h2 className="text-xl font-bold">{favorite.bande.title}</h2>
-                    <img src={`/images/${favorite.bande.image_prev}`} alt={favorite.bande.title} className="w-full h-auto mb-2" />
-                    <p>{favorite.bande.content.substring(0, 100)}...</p>
-                    <button onClick={() => handleRemoveFavorite(favorite.bande_id)}
-                        className="px-4 py-2 bg-red-500 mt-4 text-white rounded hover:bg-red-600"
-                    >
-                        Suprimer des favories
-                    </button>
-                </li>
-            ))}
-        </ul>
-    </div>
+    return
+    <ul className="mb-4 mt-4">
+        {favorites.map((favorite) => (
+            <li key={favorite.bande.id} className="mb-4">
+                <h2 className="text-xl font-bold">{favorite.bande.title}</h2>
+                <img src={`/images/${favorite.bande.image_prev}`} alt={favorite.bande.title} className="w-full h-auto mb-2" />
+                <p>{favorite.bande.content.substring(0, 100)}...</p>
+                <button onClick={() => handleRemoveFavorite(favorite.bande_id)}
+                    className="px-4 py-2 bg-red-500 mt-4 text-white rounded hover:bg-red-600"
+                >
+                    Suprimer des favories
+                </button>
+            </li>
+        ))}
+    </ul>
+
 
 
 };

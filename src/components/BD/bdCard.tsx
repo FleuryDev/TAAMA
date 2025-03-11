@@ -2,18 +2,16 @@ import { Fragment } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { CarouselFade } from '../carousels/carouselBD';
-
 export default function BdCard({ BD_obj }) {
 
-    console.log(BD_obj)
-    const { title, image_prev, content, created_at, state, slug , price} = BD_obj
+
+    const { title, image_prev, content, created_at, state, slug, price } = BD_obj
 
     return <Fragment>
         <div className="flex flex-1  w-full flex-col  max-md:min-w-full min-w:[360px]  relative   bg-[var(--secondary-color)]  shadow-md rounded-md">
             {image_prev &&
 
-               //<CarouselFade fadeImages={images} classStyles={'w-full relative aspect-video rounded-t-lg'} />
+                //<CarouselFade fadeImages={images} classStyles={'w-full relative aspect-video rounded-t-lg'} />
                 <img className={'w-full relative aspect-video rounded-t-lg'} alt={title} src={image_prev} />
             }
             <div className="flex flex-col pt-2">

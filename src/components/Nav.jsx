@@ -7,7 +7,7 @@ export function Nav({ NavItems }) {
         // a.push(<Link link={link} key={link.name}  />);
         a.push(
 
-            <NavLink className={"max-lg:hidden"} to={link.uri} key={link.name} > <span className='material-icons'>{link.icon && link.icon}</span> {link.name}</NavLink>
+            <NavLink className={"max-lg:hidden"} to={link.uri} key={link.name} > <span translate='no' className='material-icons'>{link.icon && link.icon}</span> {link.name}</NavLink>
         );
     }
     return <nav className="app-nav align-middle max-lg:hidden">
