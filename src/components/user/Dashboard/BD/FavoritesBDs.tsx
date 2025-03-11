@@ -41,7 +41,7 @@ const FavoriteBDs = ({ userId }) => {
         }
     };
 
-    if (!favorites) {
+    if (!favorites || favorites[0] === undefined || favorites[0] === null) {
         return <div className={'flex-1 flex-col flex justify-center align-middle items-center p-6 bg-white '}>
             <div className="material-icons text-6xl mx-auto scale-150 text-gray-400" >favorite</div>
             <h2 className={'flex-1 text-center my-auto text-gray-500 text-xl'}>Vous n'avez aucune favorie pour le moment !</h2>
